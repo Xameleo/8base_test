@@ -1,0 +1,6 @@
+functions:
+  neWResolver:
+    type: resolver
+    handler:
+      code: src/resolvers/neWResolver/handler.ts
+    schema: src/resolvers/neWResolver/schema.graphql
